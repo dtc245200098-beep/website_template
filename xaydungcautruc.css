@@ -1,0 +1,82 @@
+/* Reset CSS cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    text-align: center;
+    max-width: 700px;
+}
+
+/* Header */
+.header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.header p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Các ngôn ngữ và logo ở giữa */
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.lang-box a {
+    display: block;
+    text-decoration: none;
+    color: #0b0080;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.logo img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Thanh tìm kiếm */
+.search-section {
+    margin-bottom: 30px;
+}
+
+.search-section input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-section button {
+    padding: 10px 15px;
+    background-color: #3366cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Chân trang */
+.btn-lang {
+    padding: 8px 16px;
+    background: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}S
